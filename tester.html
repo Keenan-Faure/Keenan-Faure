@@ -1,0 +1,475 @@
+<html>
+    <head>
+        <style>
+            body
+            {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .splash
+            {
+                background-color: white;
+                background-position: center;
+                background-size: cover;
+                opacity: 1;
+                margin: auto;
+                position: fixed;
+                height: 100%;
+                display: block;
+                width: 100%;
+                
+                z-index: 100;
+            }
+            .splash.display-none
+            {
+                position: fixed;
+                top: 0;
+                left: 0;
+                opacity: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -10;
+                transition: all 0.5s;
+            }
+            #center
+            {
+                margin-left: auto;
+                margin-right: auto; 
+                margin-top: 200px;
+                margin-bottom: auto;
+                width: 50%;
+                display: block;
+                
+            }
+            .background
+            {
+                position: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+                object-fit: contain;
+                height: auto;
+            }
+            #backgroundImages
+            {
+                width: 100%;
+                height:100%;
+            }
+            @media screen and (max-width: 1280px)
+            {
+                #backgroundImages
+                {
+                    width: auto;
+                    height: auto;
+                }
+                
+            }
+            @media screen and (max-width: 1000px)
+            {
+                #headingText
+                {
+                    font-size: 20px; 
+                }
+            }
+            @media screen and (max-width: 1100px)
+            {
+                #middleContentText
+                {
+                    font-size: 20px;
+                }
+                .btn
+                {
+                    display: none;
+                }
+            }
+            .navBar
+            {
+                position: absolute;
+                height: 8%;
+                width: 100%;
+                background: rgba(128,128,128,0.8);
+                transition-duration: 0.5s;
+            }
+            .navBar:hover
+            {
+                background: rgb(68, 68, 68,0.9);
+            }
+            .btn
+            {
+                position: absolute;
+                width: 5%;
+                opacity: 0;
+                height: 28%;
+                border-right: 2px solid rgb(255, 255, 255);
+                background: rgba(128,128,128);
+                background-image: url('https://images6.alphacoders.com/112/thumb-1920-1123014.jpg');
+                background-size: cover;
+                top: 25%;
+                font-size: 18px;
+                text-shadow: 0 0 4px #c99393, 0 0 2px #8888bb;
+                border-radius: 4px;
+                cursor: pointer;
+                padding: 6px 18px;
+                text-align: center;
+            }
+            #btn1
+            {
+                left: 34%;
+            }
+            #btn2
+            {
+                left: 43%;
+            }
+            #btn3
+            {
+                right: 30%;
+            }
+            #btn4
+            {
+                right: 40%;
+            }
+            .bottomContainer
+            {
+                top: 1330px;
+                position: absolute;
+                background-color: grey;
+                border-top: 2px solid rgb(150, 149, 149);
+                height: 7%;
+                width: 100%;
+                opacity: 0.8;
+                transition-duration: 0.5s;
+            }
+            .bottomContainer:hover
+            {
+                background-color: rgb(68, 68, 68);
+                opacity: 0.9;
+            }
+            .middleContainer
+            {
+                position: absolute;
+                width: 35%;
+                height: 1200px;
+                background-color:grey;
+                border-radius: 10px;
+                top: 10%;
+                left: 34%;
+                transition-duration: 0.5s;
+                border: 1px solid rgb(119, 118, 118);
+            }
+            .middleContainer:hover
+            {
+                background-color: rgb(68, 68, 68);
+            }
+            .headingContainer
+            {
+                position: absolute;
+                width: 98%;
+                height: 4%;
+                margin: 5.5px 5.5px;
+                background: rgba(255,255,255,0.8);
+                border-radius: 10px 10px 0 0;
+                top: 0;
+                left: 0;
+                transition-duration: 0.5s;
+            }
+            .headingContainer:hover
+            {
+                background-color: rgb(155, 153, 153);
+            }
+            #headingText
+            {
+                font-family: 'Times New Roman', Times, serif;
+                color: black;
+                text-shadow: 0 0 4px #c99393, 0 0 2px #8888bb;
+                left: 25%;
+                margin-top: 5px;
+                text-align: center;
+                
+            }
+            .middleBody
+            {
+                position: absolute;
+                width: 98%;
+                margin: 5.5px 5.5px;
+                height: 25%;
+                left: 0;
+                background: rgba(255,255,255,0.8);
+                transition-duration: 0.4s;
+            }
+            .middleBody:hover
+            {
+                background-color:rgb(155, 153, 153);
+            }
+            #one
+            {
+                top: 5%;
+            }
+            #two
+            {
+                top: 31%;
+            }
+            #three
+            {
+                top: 57%;
+            }
+            .middleContentImg
+            {
+                position: absolute;
+                background-color: red;
+                background-size: cover;
+                width: 45%;
+                height: 70%;
+                background-position: center;
+                margin-left: 15px;
+                margin-top: 50px;
+                margin-bottom: 10px;
+            }
+            .middleTextContainer
+            {
+                position: absolute;
+                width: 45%;
+                height: 70%;
+                /* Top is changed with #one,two,three*/
+                left: 52%;
+            }
+            #first
+            {
+                top: 16.4%;
+            }
+            #second
+            {
+                top: 17.8%;
+            }
+            #third
+            {
+                top: 17.5%;
+            }
+            #middleContentText
+            {
+                font-family: 'Times New Roman', Times, serif;
+                color: black;
+                text-shadow: 0 0 4px #c99393, 0 0 2px #8888bb;
+                margin-top: 90px;
+                text-align: center;
+                font-size: 25px;
+            }
+            .middleLast
+            {
+                position: absolute;
+                top: 83%;
+                width: 98%;
+                margin: 5.5px 5.5px;
+                height: 15.5%;
+                border-radius: 0 0 10px 10px;
+                background: rgba(255,255,255,0.8);
+                transition-duration: 0.4s;
+            }
+            .middleLast:hover
+            {
+                background-color: rgb(155, 153, 153);
+            }
+            .middleLastContent
+            {
+                color: black;
+                font-size: 20px;
+                position: absolute;
+                text-shadow: 0 0 4px #c99393, 0 0 2px #8888bb;
+                width: 70%;
+                height: 40%;
+                margin-top: 80px;
+                margin-left: 100px;
+                text-align: center;
+            }
+            #middleLastText
+            {
+                font-family: 'Times New Roman', Times, serif;
+                color: black;
+                text-shadow: 0 0 4px #c99393, 0 0 2px hsl(240, 100%, 50%);
+                left: 25%;
+                margin-top: 78px;
+                text-align: center;
+                font-size: 23px;
+            }
+            .mySlides
+            {
+                display: none;
+            }
+            @keyframes fadeOut
+            {
+                to
+                {
+                    opacity: 1;
+                }
+            }
+            @keyframes fadeIn
+            {
+                to
+                {
+                    opacity: 0;
+                }
+            }
+            .fade-out
+            {
+                opacity: 0;
+                animation: fadeOut 1s ease-in forwards;
+            }
+            .splashFadeIn
+            {
+                opacity: 1;
+                animation: fadeOut 1s ease-in forwards;
+            }
+            /*
+            @media screen and (max-width: 300px)
+            {
+                .middleContainer
+                {
+                    width: 400px;
+                }
+                .navBar
+                {
+                    height: 80px;
+                }
+            }
+            */
+        </style>
+    </head>
+    <body>
+        <div class="splash">
+            <img id="center" class="fade-out" src="https://thumbs.dreamstime.com/b/genshin-impact-logo-elements-icons-set-saint-petersburg-russia-august-video-game-asian-anime-227420760.jpg">
+
+        </div>
+        <div class="background">
+            <div class="mySlides fade-out">
+                <img id="backgroundImages" src="https://images8.alphacoders.com/112/1129503.jpg">
+            </div>
+        </div>
+        <div class="background">
+            <div class="mySlides fade-out">
+                <img id="backgroundImages" src="https://images6.alphacoders.com/116/1167243.jpg">
+            </div>
+        </div>
+        <div class="background">
+            <div class="mySlides fade-out">
+                <img id="backgroundImages" src="https://wallpapercave.com/wp/wp7487062.jpg">
+            </div>
+        </div>
+
+
+        <div class="navBar">
+            <a class="btn" id="btn1">First</a>
+            <a class="btn" id="btn2">Second</a>
+            <a class="btn" id="btn3">Fourth</a>
+            <a class="btn" id="btn4">Third</a>
+            
+        </div>
+        <div style="background: rgba(128,128,128,0.8)" class="middleContainer">
+            <div class="headingContainer">
+                <h1 id="headingText">Explore Genshin Impact</h1>
+            </div>
+            <div id="one" class="middleBody">
+                <div class="middleContentImg" style="background-image: url('https://images5.alphacoders.com/109/thumb-1920-1099191.jpg');"></div>
+                <div class="middleTextContainer" id="first">
+                    <p id="middleContentText">Mondstadt</p>
+                </div>
+            </div>
+            <div id="two" class="middleBody">
+                <div class="middleContentImg" style="background-image: url('https://images.alphacoders.com/116/thumb-1920-1169181.jpg');"></div>
+                <div class="middleTextContainer" id="second">
+                    <p id="middleContentText">Liyue</p>
+                </div>
+            </div>
+            <div id="three" class="middleBody">
+                <div class="middleContentImg" style="background-image: url('https://images7.alphacoders.com/118/thumb-1920-1189484.jpg');"></div>
+                <div class="middleTextContainer" id="third">
+                    <p id="middleContentText">Inazuma</p>
+                </div>
+            </div>
+            <div class="middleLast">
+                <p id="middleLastText">More Information coming soon, stay tuned! ...</p>
+            </div>
+        </div>
+        <div class="bottomContainer"></div>
+    </body>
+
+    <script>
+        var slideIndex = 0;
+        function showSlides()
+        {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for(i = 0; i < slides.length; ++i)
+            {
+                slides[i].style.display = "none";
+            }
+            ++ slideIndex;
+            if(slideIndex > slides.length)
+            {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 7000); 
+        }
+        showSlides();
+    </script>
+    <script>
+
+        var splash = document.querySelector('.splash');
+        window.addEventListener('load', (event) =>
+        {
+            setTimeout(()=>
+            {
+                splash.style.animation = "fadeIn 1s ease-out forwards";
+            },3000);
+            setTimeout(()=>
+            {
+                splash.classList.add('display-none');
+            },5000);
+        });
+        setTimeout(() =>
+        {
+            var btn1 = document.getElementById('btn1');
+            var btn2 = document.getElementById('btn2');
+            var btn3 = document.getElementById('btn3');
+            var btn4 = document.getElementById('btn4');
+            setTimeout(() =>
+            {
+                btn1.style.animation = "fadeOut 1s ease-out forwards";
+            },500);
+            setTimeout(() =>
+            {
+                btn2.style.animation = "fadeOut 1s ease-out forwards";
+            },750);
+            setTimeout(() =>
+            {
+                btn4.style.animation = "fadeOut 1s ease-out forwards";
+            },1000);
+            setTimeout(() =>
+            {
+                btn3.style.animation = "fadeOut 1s ease-out forwards";
+            },1250);
+        },5000);
+    </script>
+    <script>
+        var click = document.getElementById('btn1');
+        click.addEventListener("click", () =>
+        {
+            alert('You are clicking button one');
+        });
+        var click = document.getElementById('btn2');
+        click.addEventListener("click", () =>
+        {
+            alert('You are clicking button two');
+        });
+        var click = document.getElementById('btn3');
+        click.addEventListener("click", () =>
+        {
+            alert('You are clicking button four');
+        });
+        var click = document.getElementById('btn4');
+        click.addEventListener("click", () =>
+        {
+            alert('You are clicking button three');
+        });
+    </script>
+</html>
