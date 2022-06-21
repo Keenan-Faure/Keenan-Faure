@@ -4,7 +4,7 @@ Welcome to my Github account/repository!
 
 Projects:
 - Projects include White Clover website.
-- Another project is the Genshin Impact Website. (status: incomplete)
+- Another project is the Genshin Impact Website.
 
 Employment: 
 - Currently Employed at Stock2Shop as a Technical Support Assistant, but hoping to move up the ladder as a junior Developer at Stock2Shop.
