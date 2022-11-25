@@ -13,7 +13,7 @@ Employment:
 
 
 Dream:
-- Full-stack developer. I am sure that the API/back-end knowledge that I am learning at Stock2Shop + my current html/css/javascript/node knowledge will surely bring me closer to my dream
+- My dream is to become a Full-stack developer. I am certain that the back-end knowledge that I am currently learning at Stock2Shop in addition my current html/css/javascript/node knowledge will surely bring me closer to my dream.
 
-Nice meeting you too!
+Yoroshiku onegaishimasu ~
 
