@@ -3,8 +3,8 @@ Welcome to my Github account/repository!
 - For history please check my linkedIn account: https://www.linkedin.com/in/keenan-faure-84a604227/
 
 Projects:
-- White Clover website.
-- Genshin Impact Website.
+- GhOverview
+- Boot.Dev (Subdirectories are projects)
 - Integration-web-app
 
 
