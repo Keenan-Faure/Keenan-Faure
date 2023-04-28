@@ -4,7 +4,7 @@ Welcome to my Github account/repository!
 
 Projects:
 - GhOverview
-- Boot.Dev (Subdirectories are projects)
+- Boot.Dev Projects (Sub-directories are the specific projects by folder name)
 - Integration-web-app
 
 
