@@ -1,18 +1,15 @@
 Welcome to my Github account/repository!
 
-- For history please check my linkedIn account: https://www.linkedin.com/in/keenan-faure-84a604227/
+For more information please visit my [LinkedIn account](https://www.linkedin.com/in/keenan-faure-84a604227/)
 
 Projects:
-
-- For a list of projects please browse my repositories
-
+- For a list of projects please browse my [repository list](https://github.com/Keenan-Faure?tab=repositories)
 
 Employment: 
-- Currently Employed at Stock2Shop as a Technical Support Assistant, but hoping to move up the ladder as a Junior Developer.
-
+- I am currently employed at Stock2Shop as a Technical Support Assistant & E-Commerce Integration consultant.
 
 Dream:
-- My dream is to become a Full-stack developer. I am certain that the back-end knowledge that I am currently learning at Stock2Shop in addition my current html/css/javascript/node knowledge will surely bring me closer to my dream.
+- My dream is to become an expectional Full-stack developer. I am certain that the Back-End programming and skills that I am learning at Stock2Shop in addition to my HTML/CSS/JavaScript/Node knowledge will definitely bring me closer to my dream.
 
-Yoroshiku onegaishimasu ~
+Yoroshiku onegaishimasu (ﾉ*ФωФ)ﾉ ~
 
