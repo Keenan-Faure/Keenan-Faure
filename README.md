@@ -1,7 +1,5 @@
 Hi, I am Keenan
 
-[LinkedIn Link](https://www.linkedin.com/in/keenan-faure-84a604227/)
-
 I am currently interested in growing to become an exceptional Full Stack Developer. To get an idea of my current programming knowledge and experience please visit my GitHub projects!
 
 For the past 6 months I have been engaging in an online course at https://www.boot.dev which provides important steps on how to become a modern back-end developer. Through this course, despite having a BSC in Computer Science, I am able to identify and patch up many missing gaps in my back-end knowledge.
