@@ -1,7 +1,7 @@
 Hi, my name is Keenan Faure.
 
 - [👨‍💻] I am currently employed at Stock2Shop as a E-commerce support technician.
-- [🛜] I am available on [LinkedIn](https://www.linkedin.com/in/keenan-faure-84a604227/)
+- [🔗] I am available on [LinkedIn](https://www.linkedin.com/in/keenan-faure-84a604227/)
 - [🚀] I am very fond of creating scable web servers with Golang.
 - [💭] My dream is to become a full-stack programmer that specialises in Golang and ReactJS.
 
