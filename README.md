@@ -5,8 +5,6 @@ Hi, my name is Keenan Faure.
 - [🚀] I am very fond of creating scable web servers with Golang.
 - [💭] My dream is to become a full-stack programmer that specialises in Golang and ReactJS.
 
-<img src="https://github.com/Keenan-Faure/Keenan-Faure/assets/97687673/760c15b6-c192-492d-a832-8b8083e4a536" width="100" height="100" />
-
 List of my Favorite projects to date:
 
 - [Shopify-Integrator](https://github.com/Keenan-Faure/Shopify-Integrator)
@@ -21,3 +19,5 @@ In my free time I enjoy researching the below technologies and implementing in m
 - Advanced algorithms in Python (Heaps, Dijkstra, A* Search etc.)
 - Learning Cryptography in Golang.
 - ReactJS HTML Framework implementation.
+
+![golang_67](https://github.com/Keenan-Faure/Keenan-Faure/assets/97687673/751f4af4-de20-4ddb-bec6-8c0640e32bdb)
