@@ -14,10 +14,7 @@ List of my Favorite projects to date:
 In my free time I enjoy researching the below technologies and implementing in my projects:
 
 - OAuth2 implementation in Golang web servers.
-- Kubernetes and their implementation inside Docker containers.
-- Docker Hub and the use of available Containers.
-- Advanced algorithms in Python (Heaps, Dijkstra, A* Search etc.)
-- Learning Cryptography in Golang.
-- ReactJS HTML Framework implementation.
+- VueJS HTML Framework implementation.
+- Implementing an 3-rd party ERP system's API into [latest project](https://github.com/Keenan-Faure/Shopify-Integrator)
 
 ![golang_67](https://github.com/Keenan-Faure/Keenan-Faure/assets/97687673/751f4af4-de20-4ddb-bec6-8c0640e32bdb)
