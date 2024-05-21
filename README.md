@@ -14,7 +14,7 @@ List of my Favorite projects to date:
 In my free time I enjoy researching the below technologies and implementing in my projects:
 
 - OAuth2 implementation in Golang web servers.
-- VueJS HTML Framework implementation.
+- VueJS Framework.
 - Implementing an 3-rd party ERP system's API into [latest project](https://github.com/Keenan-Faure/Shopify-Integrator)
 
 ![golang_67](https://github.com/Keenan-Faure/Keenan-Faure/assets/97687673/751f4af4-de20-4ddb-bec6-8c0640e32bdb)
